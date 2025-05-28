@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="An automated BPS code generation tool using semantic graph and timeseries data.">
+  <meta property="og:title" content="Graph2SIM: Generating building performance simulation models using semantic graphs and sensor measurements"/>
+  <meta property="og:description" content="We propose a RDF-graph-based workflow to generate Building Performance Simulation (BPS) models, which include both thermal envelope and HVAC systems and can connect to the corresponding real-life sensor measurements as boundary condition for simulations. The target is to reduce the manual efforts involved and to offer scalable solution to configuring the BPS models."/>
+  <meta property="og:url" content="https://github.com/LuWan0122/grpah2sim.github.io/"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/banner.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="Semantic web technologies, Building performance simulation, Ontoloiges, Modelica, HVAC">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>Graph2SIM: Generating building performance simulation models using semantic graphs and sensor measurements</title>
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">Graph2SIM: Generating building performance simulation models using semantic graphs and sensor measurements</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="https://www.linkedin.com/in/lu-wan-420649140/" target="_blank">Lu Wan</a><sup>1,2</sup>,</span>
+                <span class="author-block">
+                  <a href="https://www.linkedin.com/in/poria-esmaeili-e-506bb235b/" target="_blank">Poria Esmaeili</a><sup>1</sup>,</span>
+                  <span class="author-block">
+                      <a href="https://www.linkedin.com/in/esben-visby-fjerb%C3%A6k-b49469156/" target="_blank">Esben Fjerbæk</a><sup>3</sup>,</span>
+                      <span class="author-block">
+                        <a href="https://www.researchgate.net/profile/Jan-Gall" target="_blank">Jan Gall</a><sup>1</sup>,</span>
+                          <span class="author-block">
+                            <a href="https://www.linkedin.com/in/torsten-welfonder-341180131/" target="_blank">Torsten Welfonder</a><sup>1</sup>,</span>
+                            <span class="author-block">
+                              <a href="https://www.linkedin.com/in/ekaterina-petrova-30396953/" target="_blank">Ekaterina Petrova</a><sup>2</sup>,</span> 
+                                <span class="author-block">                    
+                                  <a href="https://www.linkedin.com/in/pieterpauwels/" target="_blank">Pieter Pauwels</a><sup>2</sup>
+                                </span>
+                                </div>
+
+                  <div class="author-block">
+                    <sup>1</sup>Advanced Energy Systems, Robert Bosch GmbH, Germany<br>
+                    <sup>2</sup>Department of the Built Environment, Eindhoven University of Technology, Netherlands<br>
+                    <sup>3</sup>Department of Civil and Mechanical Engineering, Technical University of Denmark, Denmark
+                  </div>
+
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block">
+                      <a href="https://climaworldcongress.org/" target="_blank" rel="noopener noreferrer">
+                        Clima Conference, June 2025, Milan
+                      </a>
+                    </span>
+                  </div>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                  <!-- Arxiv PDF link -->
+                  <span class="link-block">
+                    <a href="https://research.tue.nl/files/357782483/ID609_LuWan.pdf" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-file-pdf"></i>
+                      </span>
+                      <span>Paper</span>
+                    </a>
+                  </span>
+
+                  <span class="link-block">
+                    <a href="#" onclick="openPDF('static/pdfs/20250606_609_Poster_Lu_Wan_V0.pdf')" class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-file-pdf"></i>
+                      </span>
+                      <span>Poster</span>
+                    </a>
+                  </span>
+
+                  <script>
+                    function openPDF(path) {
+                      window.open(path, '_blank');
+                    }
+                  </script>
+                  <!-- Github link -->
+                  <span class="link-block">
+                    <a href="https://github.boschdevcloud.com/HSBC/Internship_Graph2SIM" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Coming Soon</span>
+                  </a>
+                </span>
+
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Building Performance Simulation (BPS) models are often used as test benches to optimize the operation of Heating, Ventilation, and Air-Conditioning (HVAC) systems in buildings. Since modelling a building and its HVAC systems demands intensive manual efforts, existing studies have explored generating BPS models semi-automatically using Industry Foundation Classes (IFC) files. However, such an approach focuses primarily on modelling the building envelope with a simpli-fied system during the design stage because the IFC schema still lacks the vocab-ulary to describe the technical equipment, their control sequences, and sensor da-ta comprehensively. This paper investigates how data transfer relying on Seman-tic Web technologies can reduce the modelling efforts in BPS. The metadata re-quired in simulation, which includes building topology, HVAC systems, related sensors, and actuators, is described in the Resource Description Framework (RDF). The paper proposes a semantic graph-based workflow to generate a model consisting of building envelope and HVAC systems and then connect the model with the corresponding historical measurements. The workflow successfully gen-erates a twelve-zone office building model with a simplified HVAC system. The CO2 and temperature simulation results of all zones are compared with real measurements from 2022 -2023.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+<!-- Introduction Section -->
+<section class="section" style="background-color: transparent;">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Introduction</h2>
+        <div class="content has-text-justified">
+          <video poster="" id="intro" autoplay controls muted loop width="100%">
+            <source src="static/videos/Graph2SIM_Intro_1.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Demo Section -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Demo</h2>
+        <div class="content has-text-justified">
+          <video poster="" id="demo" autoplay controls muted loop width="100%">
+            <source src="static/videos/Graph2sim_Demo.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Results Section -->
+<section class="section hero is-small">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Results</h2>
+        <div class="content has-text-justified">
+          <p>
+            The developed workflow is tested on part of an office building at Bosch Research Campus. The BPS model of the first floor of the building, which consist of twelve zones, was successfully generated. Due to lack of sensors in Room 9, 10, 11 and 12, the  simulation results are only compared in Room 1 to Room 8, as displayed below. 
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Image carousel -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item">
+          <img src="static/images/BaseModel_RNG111_paper.png" alt="MY ALT TEXT" style="width: 100%; height: auto;"/>
+          <h2 class="subtitle has-text-centered">
+            Generated base model of the studied floor in the office building .
+          </h2>
+        </div>
+        <div class="item">
+          <img src="static/images/temp_rmse_heat_map.png" alt="MY ALT TEXT" style="width: 100%; height: auto;"/>
+          <h2 class="subtitle has-text-centered">
+            Heatmap of the root mean square error between simulated and measured room temperature.
+          </h2>
+        </div>
+        <div class="item">
+          <img src="static/images/co2_rmse_heat_map.png" alt="MY ALT TEXT" style="width: 100%; height: auto;"/>
+          <h2 class="subtitle has-text-centered">
+            Heatmap of the root mean square error between simulated and measured CO2 concentration.
+          </h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>
+                  @inproceedings{a022f29abcba4ae8a49a0d75cb553548,
+                  title = "Generating building performance simulation models using semantic graphs and sensor measurements",
+                  abstract = "Building Performance Simulation (BPS) models are often used as test benches to optimize the operation of Heating, Ventilation, and Air-Conditioning (HVAC) systems in buildings. Since modelling a building and its HVAC systems demands intensive manual efforts, existing studies have explored generating BPS models semi-automatically using Industry Foundation Classes (IFC) files. However, such an approach focuses primarily on modelling the building envelope with a simplified system during the design stage because the IFC schema still lacks the vocabulary to describe the technical equipment, their control sequences, and sensor data comprehensively. This paper investigates how data transfer relying on Semantic Web technologies can reduce the modelling efforts in BPS. The metadata required in simulation, which includes building topology, HVAC systems, related sensors, and actuators, is described in the Resource Description Framework (RDF). The paper proposes a semantic graph-based workflow to generate a model consisting of building envelope and HVAC systems and then connect the model with the corresponding historical measurements. The workflow successfully generates a twelve-zone office building model with a simplified HVAC system. The CO2 and temperature simulation results of all zones are compared with real measurements from 2022 -2023.",
+                  keywords = "semantic web, ontologies, building performance simulation, Modelica, HVAC",
+                  author = "Lu Wan and Poria Esmaeili and Esben Fjerb{\ae}k and Jan Gall and Torsten Welfonder and Ekaterina Petrova and Pieter Pauwels",
+                  year = "2025",
+                  month = jun,
+                  language = "English",
+                  series = "Lecture Notes in Civil Engineering (LNCE)",
+                  publisher = "Springer",
+                  booktitle = "Proceedings of Clima 2025",
+                  address = "Germany",
+                  note = "Clima 2025 : Decarbonized, healthy and energy conscious buildings in future climates ; Conference date: 04-06-2025 Through 06-06-2025",
+                  url = "https://climaworldcongress.org/",
+                  }
+    </code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
